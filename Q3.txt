@@ -1,0 +1,25 @@
+//3번 문제입니다.
+import java.util.*;
+public class sosu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner a = new Scanner(System.in);
+		int re = 0;
+		
+		System.out.println("숫자를 입력하세요");
+		int num = a.nextInt();
+		
+		for(int i = 2; i<=num; i++) {
+			for(int j = 1; j<=i; j++) {
+				if(i%j==0) { 
+					re++;
+				}
+				}
+			if(re==2) {
+				System.out.print(i+" ");
+		}
+			re = 0;
+		}
+	}
+}

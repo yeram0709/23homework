@@ -1,0 +1,22 @@
+//2번 문제입니다.
+public class nummountain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int a= 1; a<=5; a++) {
+			for(int b = 4; b>=a; b--) {
+				System.out.print(" ");
+				
+				}
+		for(int b =a; b>=1; b--) {
+			System.out.print(b);
+		}
+		for(int b=2; b<=a; b++) {
+			System.out.print(b);
+		}
+		System.out.println();
+		
+		}
+	}
+}
+
